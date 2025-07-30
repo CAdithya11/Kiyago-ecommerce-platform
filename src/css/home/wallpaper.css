@@ -1,0 +1,86 @@
+:root {
+  --themeColor: rgb(255, 162, 0);
+  --font-color: #2c2c2c;
+}
+
+.wallpaper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  color: var(--font-color);
+}
+.wallpaper .image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35%;
+  height: auto;
+  position: absolute;
+  bottom: 0%;
+  right: 5%;
+}
+
+.wallpaper .wallpaper-text {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+
+.wallpaper .wallpaper-text .top-heading {
+  color: var(--themeColor);
+  font-weight: bold;
+}
+.wallpaper .wallpaper-text .heading {
+  color: black;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.wallpaper .wallpaper-text .sub {
+  font-style: italic;
+  padding: 5px 0px;
+  margin: 10px 5px;
+  font-size: 20px;
+}
+.wallpaper .wallpaper-text .button {
+  padding: 5px;
+  cursor: pointer;
+  color: var(--font-color);
+  width: 120px;
+  display: flex;
+  align-items: center;
+  transition: all 0.24s ease;
+  border: 1px solid var(--font-color);
+}
+.wallpaper .wallpaper-text .button:hover {
+  transform: scale(1.01) translateX(10px);
+  transition: all 0.24s ease;
+  color: white;
+  background-color: black;
+}
+
+.wallpaper .wallpaper-text .button p {
+  margin-right: 10px;
+}
+
+.wallpaper .wallpaper-text .someText {
+  font-family: 'Playwrite AU NSW';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 180%;
+  rotate: -30deg;
+  font-size: 90px;
+  font-weight: bold;
+  opacity: 0.4;
+  z-index: -1000;
+}
+
+.discout {
+  position: absolute;
+  color: var(--font-color);
+  rotate: -270deg;
+  top: 50%;
+  right: -100px;
+}
