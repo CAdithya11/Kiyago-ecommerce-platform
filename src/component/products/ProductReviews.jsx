@@ -1,10 +1,8 @@
 import { isEmpty } from 'lodash';
 import { ArrowLeftToLine, ArrowRightToLine } from 'lucide-react';
-import { useState } from 'react';
 import '../../css/home/ProductReviews.css';
 
-export default function ProductReviews({ customerReviews, noOfReviews }) {
-  const [reviewIndex, setReviewIndex] = useState('');
+export default function ProductReviews({ customerReviews }) {
   console.log(customerReviews);
 
   return (
