@@ -1,6 +1,6 @@
 import { Menu, Search, ShoppingBag, User } from 'lucide-react';
 import logo from '../../../assets/logo/logo.png';
-import './Navbar.css';
+import '../../../css/home/Navbar.css';
 import { Link } from 'react-router-dom';
 
 export default function NavBar({ scrolled }) {

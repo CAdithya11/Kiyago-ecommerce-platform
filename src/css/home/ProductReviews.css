@@ -1,0 +1,23 @@
+.reviews {
+  background-color: rgb(239, 239, 239);
+  width: 100%;
+  border: 1px solid black;
+}
+
+.reviews .client-reviews p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 50px 0px 10px 0px;
+}
+
+.reviews .review {
+  border: 1px solid gold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.reviews .client-reviews .box {
+  text-align: center;
+}
