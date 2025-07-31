@@ -1,4 +1,4 @@
-name: patient-managment-system
+name: ecommerce-platform
 on:
   push:
     branches:
