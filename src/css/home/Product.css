@@ -66,3 +66,27 @@
   font-size: var(--paragrapgh-font-size);
   color: var(--font-color);
 }
+
+/* Star Review */
+.star-rating {
+  margin: 5px 0px 0px -2px;
+  position: relative;
+}
+
+.star-rating .stars {
+  display: flex;
+  gap: 4px;
+}
+
+.star-rating .stars .star {
+  transition: all ease 0.45s;
+}
+.star-rating .stars .star:hover {
+  transition: all ease 0.45s;
+  transform: scale(1.1);
+}
+
+.star-rating .rating {
+  position: absolute;
+  top: 0;
+}
